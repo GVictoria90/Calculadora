@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <div id="fila-0" class="fil">
+        <div id="result" class="col">
+          <div id="anterior-wrapper" class="res">
+            <h6 id="anterior"></h6>
+          </div>
+          <div id="resultado-wrapper" class="res">
+            <h4 id="resultado"></h4>
+          </div>
+        </div>
+      </div>
+      <div id="fila-1" class="fil">
+        <div class="col">
+          <button class="button operacion" data-value="7">7</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="8">8</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="9">9</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="/">/</button>
+        </div>
+      </div>
+      <div id="fila-2" class="fil">
+        <div class="col">
+          <button class="button operacion" data-value="4">4</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="5">5</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="6">6</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="x">x</button>
+        </div>
+      </div>
+      <div id="fila-3" class="fil">
+        <div class="col">
+          <button class="button operacion" data-value="1">1</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="2">2</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="3">3</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="-">-</button>
+        </div>
+      </div>
+      <div id="fila-4" class="fil">
+        <div class="col">
+          <button class="button operacion" data-value="0">0</button>
+        </div>
+        <div class="col">
+          <button id="borrar" class="button"><=</button>
+        </div>
+        <div class="col">
+          <button id="igual" class="button" data-value="=">=</button>
+        </div>
+        <div class="col">
+          <button class="button operacion" data-value="+">+</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" type="application/javascript"></script>
+  </body>
+</html>
